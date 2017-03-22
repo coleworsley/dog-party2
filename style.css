@@ -1,0 +1,103 @@
+body {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  /*font-size: 16px;*/
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  height: 40px;
+  background: #7FDAE0;
+}
+
+nav img {
+  height: 30px;
+  width: 30px;
+  margin: 5px 0px 5px 15px;
+  float: left;
+}
+
+nav a {
+  float: right;
+  margin: 12px 15px 12px 5px;
+  color: white;
+}
+
+.what-are-dogs {
+  background: url(images/park.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  min-height: 400px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+section img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: solid 3px #307A98;
+  display: block;
+  margin: 20px auto;
+}
+
+.what-are-dogs img {
+  height: 250px;
+  width: 250px;
+}
+
+.question {
+  border: solid 3px #307A98;
+  background: white;
+  color: #307A98;
+  padding: 5px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 0px auto;
+}
+
+article {
+  display: inline-block;
+  margin-right: -4px;
+  max-width: 33.3%;
+  min-width: 250px;
+  vertical-align: top;
+}
+
+p {
+  margin: 20px 30px;
+}
+
+footer {
+  background: #307A98;
+  padding: 5px;
+  color: white;
+}
+
+
+footer a{
+  margin: 20px;
+  display: inline-block;
+}
+
+
+a:hover {
+  background: #307A98;
+  color: white;
+}
